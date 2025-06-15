@@ -1,0 +1,11 @@
+#Ignore these files
+.env
+
+#Ignore these directories
+node_modules/
+local-only/
+
+
+#Ignore all PDF, CSV files 
+*.pdf
+*.csv
