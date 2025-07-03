@@ -1,0 +1,15 @@
+# Dependencies
+
+# IDE files
+.vscode/
+
+# OS files
+Thumbs.db
+
+# Environment variables
+.env
+config/api-keys.js
+
+# Build files
+dist/
+build/
