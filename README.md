@@ -3,7 +3,7 @@
 ***A digital habit tracker, bullet journal and task prioritization/scheduling that mimics the look, feel, and flow of a paper journal.***
 
 ## Description 
-The Habit Jopurnal is a responsive web application that combines a habit tracker, bullet journal, 
+The Habit Journal is a responsive web application that combines a habit tracker, bullet journal, 
 and task manager into one clean, user-friendly dashboard. Built with HTML, CSS, and JavaScript, 
 the app helps users stay focused, track their progress, and reflect daily—all in one place. 
 It fetches a daily inspirational quote from the ZenQuotes API and current weather for a selected 
@@ -22,11 +22,11 @@ U.S. city, with options to customize quote themes and location preferences.
     – Guidelines for people who want to help with the project.
 
 
-## 🧭 Project Roadmap: Habit Journal
+## Project Roadmap: Habit Journal
 
 #### This document outlines the key milestones and associated issues to guide the development of the Habit Journal application. Each milestone includes a description and the related implementation issues.
 
-### 🧱 Foundation & Learning
+### Foundation & Learning
 
 > Establish the technical foundation by setting up project structure, learning Bootstrap and jQuery for responsive and interactive design.
 
@@ -34,7 +34,7 @@ U.S. city, with options to customize quote themes and location preferences.
 - [ ] Learn Bootstrap Basics  
 - [ ] Learn jQuery Basics  
 
-### 🧮 Core Data Models & Storage
+### Core Data Models & Storage
 
 > Define schemas for habits, tracking, journal entries, and user settings. Implement `LocalStorage` structure and CRUD utilities.
 
@@ -44,13 +44,13 @@ U.S. city, with options to customize quote themes and location preferences.
 - [ ] Create User Settings Data Model  
 - [ ] Database/Storage Setup  
 
-### 🎨 Design System & UI Setup
+### Design System & UI Setup
 
 > Implement a consistent and responsive design system using Bootstrap, including layout, color scheme, and components.
 
 - [ ] UI/UX Design System  
 
-### ✅ Habit Tracker Workflow
+### Habit Tracker Workflow
 
 > Create the full habit-tracking functionality from input to visualization, including frequency logic and streak tracking.
 
@@ -62,8 +62,7 @@ U.S. city, with options to customize quote themes and location preferences.
 - [ ] Create Habit Streak Calculation  
 - [ ] Build Habit Progress Visualization  
 
-
-### 📓 Journal System Workflow
+### Journal System Workflow
 
 > Build journaling functionality with tagging, mood tracking, editing, and searching.
 
@@ -71,8 +70,7 @@ U.S. city, with options to customize quote themes and location preferences.
 - [ ] Create Journal Entry Tags System  
 - [ ] Implement Journal Entry Management  
 
-
-### 📅 Calendar Integration
+### Calendar Integration
 
 > Design a calendar view that connects daily habits and journal data with navigation and detail views.
 
@@ -82,8 +80,7 @@ U.S. city, with options to customize quote themes and location preferences.
 - [ ] Implement Date Selection and Detail View  
 - [ ] Create Calendar Data Integration  
 
-
-### 💬 Quote Feature
+### Quote Feature
 
 > Fetch and display motivational quotes from an API with offline fallback support.
 
@@ -93,8 +90,7 @@ U.S. city, with options to customize quote themes and location preferences.
 - [ ] Add Quote Refresh Functionality  
 - [ ] Handle Quote API Error States  
 
-
-### 🌦️ Weather Feature
+### Weather Feature
 
 > Personalize experience with weather data based on user location preferences.
 
@@ -104,7 +100,7 @@ U.S. city, with options to customize quote themes and location preferences.
 - [ ] Implement Weather Data Caching  
 
 
-### 🧪 Wrap-Up
+### Wrap-Up
 
 > Perform testing, fix bugs, and deploy with full documentation.
 
