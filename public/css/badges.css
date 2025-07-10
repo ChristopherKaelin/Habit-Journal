@@ -1,0 +1,33 @@
+
+.badge {
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.badge-primary {
+    background-color: var(--color-primary);
+    color: white;
+}
+
+.badge-success {
+    background-color: var(--color-success);
+    color: white;
+}
+
+.badge-accent {
+    background-color: var(--color-accent);
+    color: var(--color-text);
+}
+
+.badge-info {
+    background-color: var(--color-info);
+    color: white;
+}
+
+.badge-outline {
+    background-color: transparent;
+    color: var(--color-primary);
+    border: 1px solid var(--color-primary);
+}

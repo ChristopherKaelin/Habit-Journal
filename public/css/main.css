@@ -1,0 +1,72 @@
+/* Color Variables */
+@import "./variables.css";
+
+/* Typography */
+@import "./typography.css";
+
+/* Cards & Panels */
+@import "./cards.css";
+
+/* Forms - Inputs  */
+@import "./forms-inputs.css";
+
+/* Buttons */
+@import "./buttons.css";
+
+/* Badges */
+@import "./badges.css";
+
+/* Alerts */
+@import "./alerts.css";
+
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    width: 100%;
+}
+
+/* Container for nav and main content */
+.content-container {
+    display: flex;
+    flex: 1;
+    min-height: 0;
+}
+
+
+nav {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    width: 75%;
+}
+
+footer {
+    width: 100%;
+    margin-top: auto;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+    .content-container {
+        flex-direction: column;
+    }
+    
+    nav {
+        width: 100% !important; 
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: left ;
+    }
+    
+    main {
+        width: 100% !important;
+    }
+}
