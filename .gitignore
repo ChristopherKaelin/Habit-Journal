@@ -13,3 +13,4 @@ config/api-keys.js
 # Build files
 dist/
 build/
+node_modules/
